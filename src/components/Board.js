@@ -50,7 +50,7 @@ export default class Board extends React.Component {
         let note = {
             note: data
         };
-        $.ajax({url:'hhttps://wall-react.herokuapp.com/notes',
+        $.ajax({url:'https://wall-react.herokuapp.com/notes',
                 method: 'post',
                 dataType: 'json',
                 data: note
